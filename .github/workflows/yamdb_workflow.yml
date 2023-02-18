@@ -42,6 +42,7 @@ jobs:
         with:
           push: true
           tags: okhnovsky/api_yamdb:latest
+          file: api_yamdb/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
